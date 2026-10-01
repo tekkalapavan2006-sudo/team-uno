@@ -1,0 +1,256 @@
+{
+ "bench": "monitors",
+ "adapter": "adapters.mine:MySolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "monitors-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 120,
+   "digest": "960de4a88cf81874",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.018458,
+     3376935
+    ],
+    [
+     0.023471,
+     3350610
+    ],
+    [
+     0.029251,
+     3167050
+    ],
+    [
+     0.101855,
+     3030948
+    ],
+    [
+     0.106673,
+     2965159
+    ]
+   ],
+   "checkpoint_costs": [
+    2965159,
+    2965159,
+    2965159,
+    2965159
+   ],
+   "final_cost": 2965159,
+   "accepted": 269,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.197
+  },
+  {
+   "name": "monitors-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 200,
+   "digest": "67cfbfbda367e71e",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.058344,
+     4392304
+    ],
+    [
+     0.079957,
+     4331348
+    ]
+   ],
+   "checkpoint_costs": [
+    4331348,
+    4331348,
+    4331348,
+    4331348
+   ],
+   "final_cost": 4331348,
+   "accepted": 34,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.063
+  },
+  {
+   "name": "monitors-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 300,
+   "digest": "2cf0b19945bc49fa",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.165059,
+     5649466
+    ],
+    [
+     0.226693,
+     5484345
+    ],
+    [
+     0.295799,
+     5467737
+    ],
+    [
+     0.363597,
+     5455372
+    ]
+   ],
+   "checkpoint_costs": [
+    5484345,
+    5455372,
+    5455372,
+    5455372
+   ],
+   "final_cost": 5455372,
+   "accepted": 22,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.15
+  },
+  {
+   "name": "monitors-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 400,
+   "digest": "351e656cba275012",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.46093,
+     6941054
+    ],
+    [
+     0.673052,
+     6856425
+    ],
+    [
+     0.877772,
+     6827084
+    ],
+    [
+     1.058751,
+     6812257
+    ]
+   ],
+   "checkpoint_costs": [
+    null,
+    6827084,
+    6812257,
+    6812257
+   ],
+   "final_cost": 6812257,
+   "accepted": 10,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.226
+  },
+  {
+   "name": "monitors-05",
+   "family": "clustered",
+   "shifted": true,
+   "size": 250,
+   "digest": "d49f08417e30c445",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.203648,
+     246350
+    ],
+    [
+     0.275501,
+     239751
+    ]
+   ],
+   "checkpoint_costs": [
+    246350,
+    239751,
+    239751,
+    239751
+   ],
+   "final_cost": 239751,
+   "accepted": 36,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.198
+  },
+  {
+   "name": "monitors-06",
+   "family": "clustered",
+   "shifted": true,
+   "size": 400,
+   "digest": "9d789abac070a3ec",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.512991,
+     320676
+    ],
+    [
+     0.737272,
+     317545
+    ],
+    [
+     0.959707,
+     316833
+    ]
+   ],
+   "checkpoint_costs": [
+    null,
+    316833,
+    316833,
+    316833
+   ],
+   "final_cost": 316833,
+   "accepted": 14,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.183
+  }
+ ],
+ "points": {
+  "scores": {
+   "monitors-01": 1.0,
+   "monitors-02": 0.6880359808990288,
+   "monitors-03": 0.7751546332407502,
+   "monitors-04": 0.5633411133833585,
+   "monitors-05": 0.7095659844742415,
+   "monitors-06": 0.6059377817853921
+  },
+  "family_means": {
+   "uniform": 0.7566329318807844,
+   "clustered": 0.6577518831298168
+  },
+  "robustness_halved": false,
+  "quality": 50.657080760799,
+  "robustness": 13.155037662596335,
+  "engineering": 9.333333333333334,
+  "total": 73.14545175672866
+ }
+}

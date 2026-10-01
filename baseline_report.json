@@ -1,0 +1,224 @@
+{
+ "bench": "monitors",
+ "adapter": "adapters.baseline:BaselineSolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "monitors-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 120,
+   "digest": "960de4a88cf81874",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.015037,
+     3522944
+    ],
+    [
+     0.02039,
+     3376935
+    ]
+   ],
+   "checkpoint_costs": [
+    3376935,
+    3376935,
+    3376935,
+    3376935
+   ],
+   "final_cost": 3376935,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.414
+  },
+  {
+   "name": "monitors-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 200,
+   "digest": "67cfbfbda367e71e",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.060132,
+     4435127
+    ],
+    [
+     0.101357,
+     4392304
+    ]
+   ],
+   "checkpoint_costs": [
+    4392304,
+    4392304,
+    4392304,
+    4392304
+   ],
+   "final_cost": 4392304,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.581
+  },
+  {
+   "name": "monitors-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 300,
+   "digest": "2cf0b19945bc49fa",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.116227,
+     6157180
+    ],
+    [
+     0.188298,
+     5649466
+    ]
+   ],
+   "checkpoint_costs": [
+    5649466,
+    5649466,
+    5649466,
+    5649466
+   ],
+   "final_cost": 5649466,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.631
+  },
+  {
+   "name": "monitors-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 400,
+   "digest": "351e656cba275012",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.252424,
+     7086495
+    ],
+    [
+     0.411602,
+     6941054
+    ]
+   ],
+   "checkpoint_costs": [
+    null,
+    6941054,
+    6941054,
+    6941054
+   ],
+   "final_cost": 6941054,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.84
+  },
+  {
+   "name": "monitors-05",
+   "family": "clustered",
+   "shifted": true,
+   "size": 250,
+   "digest": "d49f08417e30c445",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.130005,
+     254897
+    ],
+    [
+     0.208852,
+     246350
+    ]
+   ],
+   "checkpoint_costs": [
+    246350,
+    246350,
+    246350,
+    246350
+   ],
+   "final_cost": 246350,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 0.679
+  },
+  {
+   "name": "monitors-06",
+   "family": "clustered",
+   "shifted": true,
+   "size": 400,
+   "digest": "9d789abac070a3ec",
+   "adapter": "adapters.baseline:BaselineSolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.358572,
+     324176
+    ],
+    [
+     0.616437,
+     320676
+    ]
+   ],
+   "checkpoint_costs": [
+    null,
+    320676,
+    320676,
+    320676
+   ],
+   "final_cost": 320676,
+   "accepted": 2,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 1.077
+  }
+ ],
+ "points": {
+  "scores": {
+   "monitors-01": 0.5,
+   "monitors-02": 0.5,
+   "monitors-03": 0.5,
+   "monitors-04": 0.45,
+   "monitors-05": 0.5,
+   "monitors-06": 0.45
+  },
+  "family_means": {
+   "uniform": 0.4875,
+   "clustered": 0.475
+  },
+  "robustness_halved": false,
+  "quality": 33.833333333333336,
+  "robustness": 9.5,
+  "engineering": 9.333333333333334,
+  "total": 52.66666666666667
+ }
+}

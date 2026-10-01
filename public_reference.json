@@ -1,0 +1,160 @@
+{
+ "budgets": {
+  "monitors-01": 5.0,
+  "monitors-02": 5.0,
+  "monitors-03": 5.0,
+  "monitors-04": 5.0,
+  "monitors-05": 5.0,
+  "monitors-06": 5.0
+ },
+ "generator_schema": 1,
+ "instances": {
+  "monitors-01": {
+   "baseline_costs": [
+    3376935,
+    3376935,
+    3376935,
+    3376935
+   ],
+   "digest": "960de4a88cf81874",
+   "family": "uniform",
+   "probe_score": 0.7549,
+   "reference_cost": 2965159,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    5347075,
+    5347075,
+    5347075,
+    5347075
+   ]
+  },
+  "monitors-02": {
+   "baseline_costs": [
+    4392304,
+    4392304,
+    4392304,
+    4392304
+   ],
+   "digest": "67cfbfbda367e71e",
+   "family": "uniform",
+   "probe_score": 0.688,
+   "reference_cost": 4230218,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    8028721,
+    8028721,
+    8028721,
+    8028721
+   ]
+  },
+  "monitors-03": {
+   "baseline_costs": [
+    5649466,
+    5649466,
+    5649466,
+    5649466
+   ],
+   "digest": "2cf0b19945bc49fa",
+   "family": "uniform",
+   "probe_score": 0.7793,
+   "reference_cost": 5302031,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    9221559,
+    9221559,
+    9221559,
+    9221559
+   ]
+  },
+  "monitors-04": {
+   "baseline_costs": [
+    6941054,
+    6941054,
+    6941054,
+    6941054
+   ],
+   "digest": "351e656cba275012",
+   "family": "uniform",
+   "probe_score": 0.6248,
+   "reference_cost": 6442771,
+   "shifted": false,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    12050108,
+    12050108,
+    12050108,
+    12050108
+   ]
+  },
+  "monitors-05": {
+   "baseline_costs": [
+    246350,
+    246350,
+    246350,
+    246350
+   ],
+   "digest": "d49f08417e30c445",
+   "family": "clustered",
+   "probe_score": 0.7329,
+   "reference_cost": 232180,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    601870,
+    601870,
+    601870,
+    601870
+   ]
+  },
+  "monitors-06": {
+   "baseline_costs": [
+    320676,
+    320676,
+    320676,
+    320676
+   ],
+   "digest": "9d789abac070a3ec",
+   "family": "clustered",
+   "probe_score": 0.6059,
+   "reference_cost": 309586,
+   "shifted": true,
+   "spreads": {
+    "baseline": 0,
+    "reference": 0,
+    "starter": 0
+   },
+   "starter_costs": [
+    943235,
+    943235,
+    943235,
+    943235
+   ]
+  }
+ },
+ "reference_scale": 10,
+ "repeats": 3,
+ "schema": 1
+}

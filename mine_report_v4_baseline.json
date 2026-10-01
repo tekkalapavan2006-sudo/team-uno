@@ -1,0 +1,312 @@
+{
+ "bench": "monitors",
+ "adapter": "adapters.mine:MySolver",
+ "budget_scale": 1.0,
+ "records": [
+  {
+   "name": "monitors-01",
+   "family": "uniform",
+   "shifted": false,
+   "size": 120,
+   "digest": "960de4a88cf81874",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.0131,
+     3522944
+    ],
+    [
+     0.018409,
+     3376935
+    ],
+    [
+     0.024966,
+     3350610
+    ],
+    [
+     0.029945,
+     3167050
+    ],
+    [
+     0.06398,
+     3040287
+    ],
+    [
+     0.069368,
+     2965159
+    ]
+   ],
+   "checkpoint_costs": [
+    2965159,
+    2965159,
+    2965159,
+    2965159
+   ],
+   "final_cost": 2965159,
+   "accepted": 150,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.274
+  },
+  {
+   "name": "monitors-02",
+   "family": "uniform",
+   "shifted": false,
+   "size": 200,
+   "digest": "67cfbfbda367e71e",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.045639,
+     4435127
+    ],
+    [
+     0.068306,
+     4392304
+    ],
+    [
+     0.090574,
+     4331348
+    ],
+    [
+     2.013469,
+     4230218
+    ]
+   ],
+   "checkpoint_costs": [
+    4331348,
+    4331348,
+    4230218,
+    4230218
+   ],
+   "final_cost": 4230218,
+   "accepted": 39,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.23
+  },
+  {
+   "name": "monitors-03",
+   "family": "uniform",
+   "shifted": false,
+   "size": 300,
+   "digest": "2cf0b19945bc49fa",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.107495,
+     6157180
+    ],
+    [
+     0.17679,
+     5649466
+    ],
+    [
+     0.244699,
+     5484345
+    ],
+    [
+     0.314588,
+     5467737
+    ],
+    [
+     0.381713,
+     5455372
+    ],
+    [
+     0.989023,
+     5392951
+    ]
+   ],
+   "checkpoint_costs": [
+    5484345,
+    5392951,
+    5392951,
+    5392951
+   ],
+   "final_cost": 5392951,
+   "accepted": 20,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.243
+  },
+  {
+   "name": "monitors-04",
+   "family": "uniform",
+   "shifted": false,
+   "size": 400,
+   "digest": "351e656cba275012",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.222612,
+     7086495
+    ],
+    [
+     0.602798,
+     6941054
+    ],
+    [
+     1.038529,
+     6856425
+    ],
+    [
+     1.198889,
+     6827084
+    ],
+    [
+     1.363849,
+     6812257
+    ],
+    [
+     2.49663,
+     6674433
+    ],
+    [
+     2.663388,
+     6644848
+    ]
+   ],
+   "checkpoint_costs": [
+    7086495,
+    6941054,
+    6674433,
+    6644848
+   ],
+   "final_cost": 6644848,
+   "accepted": 14,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.38
+  },
+  {
+   "name": "monitors-05",
+   "family": "clustered",
+   "shifted": true,
+   "size": 250,
+   "digest": "d49f08417e30c445",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.107397,
+     254897
+    ],
+    [
+     0.182552,
+     246350
+    ],
+    [
+     0.262801,
+     239751
+    ],
+    [
+     0.856386,
+     238281
+    ],
+    [
+     0.930067,
+     234616
+    ],
+    [
+     1.003232,
+     232180
+    ]
+   ],
+   "checkpoint_costs": [
+    246350,
+    234616,
+    232180,
+    232180
+   ],
+   "final_cost": 232180,
+   "accepted": 14,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.262
+  },
+  {
+   "name": "monitors-06",
+   "family": "clustered",
+   "shifted": true,
+   "size": 400,
+   "digest": "9d789abac070a3ec",
+   "adapter": "adapters.mine:MySolver",
+   "budget_s": 5.0,
+   "history": [
+    [
+     0.305976,
+     324176
+    ],
+    [
+     0.571526,
+     320676
+    ],
+    [
+     0.825753,
+     317545
+    ],
+    [
+     1.086787,
+     316833
+    ],
+    [
+     4.357504,
+     316595
+    ]
+   ],
+   "checkpoint_costs": [
+    null,
+    317545,
+    316833,
+    316595
+   ],
+   "final_cost": 316595,
+   "accepted": 17,
+   "rejected": 0,
+   "reasons": [],
+   "overrun": false,
+   "crashed": false,
+   "error": null,
+   "wall_s": 5.274
+  }
+ ],
+ "points": {
+  "scores": {
+   "monitors-01": 1.0,
+   "monitors-02": 0.9064107942697087,
+   "monitors-03": 0.8560027055420438,
+   "monitors-04": 0.6984409073615991,
+   "monitors-05": 0.9328087508821454,
+   "monitors-06": 0.603809738503156
+  },
+  "family_means": {
+   "uniform": 0.865213601793338,
+   "clustered": 0.7683092446926507
+  },
+  "robustness_halved": false,
+  "quality": 58.303850459850956,
+  "robustness": 15.366184893853013,
+  "engineering": 9.666666666666666,
+  "total": 83.33670202037064
+ }
+}
